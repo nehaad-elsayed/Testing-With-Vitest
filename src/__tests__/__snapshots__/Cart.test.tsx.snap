@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot with multiple items in the cart 1`] = `
+<DocumentFragment>
+  <div
+    class="cart"
+  >
+    <h2>
+      Cart
+    </h2>
+    <p>
+      You have 3 items in your cart
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`snapshot with nothing in the cart 1`] = `
+<DocumentFragment>
+  <div
+    class="cart"
+  >
+    <h2>
+      Cart
+    </h2>
+    <p>
+      No items in your cart
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`snapshot with one item in the cart 1`] = `
+<DocumentFragment>
+  <div
+    class="cart"
+  >
+    <h2>
+      Cart
+    </h2>
+    <p>
+      You have 1 items in your cart
+    </p>
+  </div>
+</DocumentFragment>
+`;
